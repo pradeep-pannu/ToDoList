@@ -25,7 +25,7 @@ import todo.list.Unmarshalling;
 
 /**
  *
- * @author pradeep.ae.kumar
+ * @author pradeep pannu
  */
 public class MainFrame extends javax.swing.JFrame {
 
@@ -754,37 +754,7 @@ public class MainFrame extends javax.swing.JFrame {
         
           int j=1;
           for(int i=0;i<sunday_tasks.size();i++){
-//            JButton jButton12 = new JButton();
-//            jButton12.setText("Press Me");
-//             
-//            Action delete;
-//                delete = new AbstractAction()
-//                {
-//                    @Override
-//                    public void actionPerformed(ActionEvent  e)
-//                    {
-//                        
-//                        int selectedRow = jTable2.getSelectedRow();
-//                        String loc = (String) jTable2.getValueAt(selectedRow, 7);
-//                        System.out.println(loc);
-//                        //Desktop.getDesktop().open(new File((String) jTable2.getValueAt(selectedRow, 3)));
-////                        Process p;
-////                        try {
-////                            p = Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler "+loc);
-////                            //p.waitFor();
-////                        } catch (IOException ex) {
-////                            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-//////                        } catch (InterruptedException ex) {
-//////                            Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-//////                        }
-////
-////
-////                        }
-//                    }
-//                    
-//                };
-//                    
-//                        ButtonColumn btcl = new ButtonColumn(jTable2,delete, 7);
+
                         row [0]=j++;
                         row [1]= sunday_tasks.get(i).getTask_name();
                         row [2]= sunday_tasks.get(i).getTask_type();
@@ -801,62 +771,8 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
-//    private void jButton12MouseClicked(java.awt.event.MouseEvent evt) {   
-//         jTable2.addMouseListener(new MouseAdapter() {
-//        public void mouseClicked(MouseEvent e) {
-//            if (e.getClickCount() == 2) {
-//                int selectedRow = jTable2.getSelectedRow();
-//                String loc = (String) jTable2.getValueAt(selectedRow, 7);
-//                
-//               // String loc1 = loc.replace("\\", "\\");
-//                //System.out.println(loc);
-//               try {
-//                   int count=1;
-//                   //Desktop.getDesktop().open(new File((String) jTable2.getValueAt(selectedRow, 3)));
-//                   while( count>0){
-//                   Process p = Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler "+loc);
-//                   count--;
-////                    try {
-////                        p.waitFor();
-////                    } catch (InterruptedException ex) {
-////                        Logger.getLogger(MainFrame.class.getName()).log(Level.SEVERE, null, ex);
-////                    }
-////                   }
-//               } }catch (IOException e1) {
-//                   e1.printStackTrace();
-//               }
-//               
-//            }
-//        }
-//        } );
-//    }
-    //Delete Task code
-    private void jButton11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton11MouseClicked
-//        int selectedRow = jTable2.getSelectedRow();
-//        DefaultTableModel model = (DefaultTableModel) jTable2.getModel();
-//        List rtrv_item=model.getDataVector();
-//        Iterator it = rtrv_item.iterator();
-//        while(it.hasNext()){
-//            TaskDetails tt = (TaskDetails) it.next();
-//            System.out.println(tt.getTask_name());}
-//        
-//        Object delete_item=null;
-//        for (int j = 0; j < model.getColumnCount(); j++) {
-//            delete_item = model.getValueAt(selectedRow, j);
-////         TaskDetails ts = (TaskDetails) delete_item ;
-//           // System.out.println(delete_item.getTask_category());
-//        }
-//        Unmarshalling unm = new Unmarshalling();
-//        List<TaskDetails> avail_item = unm.retriveFromXML();
-//        Iterator itr = avail_item.iterator();
-//        while (itr.hasNext()) {
-//            TaskDetails next_name = (TaskDetails) itr.next();
-//            Object obj = next_name;
-//            System.out.println(obj);
-//            
-//        }
-    }//GEN-LAST:event_jButton11MouseClicked
+    }
+    
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
