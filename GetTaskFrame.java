@@ -11,7 +11,7 @@ import todo.list.TaskDetails;
 
 /**
  *
- * @author pradeep.ae.kumar
+ * @author pradeep pannu
  */
 public class GetTaskFrame extends javax.swing.JFrame {
 
